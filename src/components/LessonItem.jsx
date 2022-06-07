@@ -3,7 +3,7 @@ import { View, StyleSheet, Text } from 'react-native';
 
 const Item = ({ item }) => (
     <View style={styles.item}>
-      <Text style={styles.title}>{item.title}</Text>
+      <Text style={styles.title}>{item.value}</Text>
     </View>
   );
 
